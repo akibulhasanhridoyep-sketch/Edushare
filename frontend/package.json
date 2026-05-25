@@ -1,0 +1,27 @@
+{
+  "name": "edushare-frontend",
+  "version": "2.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "start": "cross-env NODE_OPTIONS=--no-deprecation react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead"
+    ],
+    "development": [
+      "last 1 chrome version"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "npm-check-updates": "^22.1.1"
+  }
+}
